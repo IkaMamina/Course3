@@ -3,6 +3,7 @@ from utils import get_date, mask_from_to, get_filtered_and_sorted, prepare_user_
 
 def test_get_date():
     assert get_date("2019-08-26T10:50:58.294041") == "26.08.2019"
+    assert get_date("2018-03-23T10:45:06.972075") == "23.03.2018"
 
 
 def test_mask_from_to():
